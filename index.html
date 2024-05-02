@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ------------------------Nav bar--------------------------------- -->
+    <header>
+        <nav class="headercontainer">
+            <div class="navein">
+                <img src="https://e7.pngegg.com/pngimages/670/1021/png-clipart-local-search-engine-optimisation-search-engine-optimization-web-search-engine-geotargeting-service-navbar-logo-agriculture-thumbnail.png"
+                    alt="" class="manubar">
+                <img src="https://static.dezeen.com/uploads/2020/10/gmail-google-logo-rebrand-workspace-design_dezeen_2364_col_0.jpg"
+                    alt="" class="gmailpng">
+            </div>
+            <span class="surchbox"> <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="surchbox1" placeholder=" Search mail">
+                <i class="fa-solid fa-sliders"></i>
+            </span>
+            </input>
+            </div>
+            <div class="navinright">
+                <img src="https://www.shutterstock.com/image-vector/support-icon-can-be-used-600nw-1887496465.jpg"
+                    alt="" " class=" support">
+                <img src="https://t3.ftcdn.net/jpg/01/15/86/96/360_F_115869642_AmU09BzU0qWAAVusLryzHHpeYKG1WdOW.jpg"
+                    alt="" " class=" setting">
+                <img src="https://previews.123rf.com/images/blankstock/blankstock1409/blankstock140906417/31709464-thumbnails-grid-sign-icon-gallery-view-option-symbol-circle-flat-button-with-shadow-modern-ui.jpg" " class="
+                    appoption">
+                <img src="sandeep image.jpg" alt="" " class=" prophilepicture">
+            </div>
+        </nav>
+    </header>
+    <!-- ---------------------left side menu----------------------- -->
+    <nav class="nav-container">
+        <div class="nav-top">
+            <div class="compose">
+                <i class="fa-solid fa-pencil"></i> <b>Compose</b>
+            </div>
+
+            <ul>
+                <li>
+                    <a href=""> <i class="fa-solid fa-inbox"></i>
+                        <p>Inbox</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=""> <i class="fa-regular fa-star"></i>
+                        <p> Starred</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-regular fa-clock"></i>
+                        <p> Snoozed</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <p>Sent</p>
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-file"></i>
+                    <p>Drafts</p>
+                    </a>
+                </li>
+                <li>
+
+
+
+                    <div class="morebutton"><i class="fa-solid fa-angle-down"></i>
+                        <i class="fa-solid fa-angle-up"></i>
+                        <p>More </p>
+
+                <li>
+                    <div><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpy-kcS4cDBkvqq0NqrrcB9IAeCxMY25PTZqVaxZNWfF6q86X7qFQQdzyy3IeUQNIIFTc&usqp=CAU"
+                            alt="" class="afterclickmorebutton">
+                        <p> Importance</p>
+                    </div>
+                </li>
+                <li>
+                    <div><img
+                            src="https://static.vecteezy.com/system/resources/previews/005/337/802/non_2x/icon-symbol-chat-outline-illustration-free-vector.jpg"
+                            alt="" class="afterclickmorebutton">
+                        <p> Chats</p>
+                    </div>
+                </li>
+                <li>
+                    <div><img
+                            src="https://static.vecteezy.com/system/resources/thumbnails/003/738/373/small/time-schedule-icon-free-vector.jpg"
+                            alt="" class="afterclickmorebutton">
+                        <p>Scheduled</p>
+                    </div>
+                </li>
+                <li>
+                    <div><img
+                            src="https://thumbs.dreamstime.com/z/email-message-icon-vector-line-open-mail-symbol-web-icon-email-message-icon-vector-line-open-mail-symbol-113716375.jpg"
+                            alt="" class="afterclickmorebutton">
+                        <p>All Mail</p>
+                    </div>
+                </li>
+                <li>
+                    <div><img
+                            src="https://img.freepik.com/premium-vector/no-spam-no-web-spam-no-email-spam-spam-protection_549897-1817.jpg?w=360"
+                            class="afterclickmorebutton" alt="">
+                        <p><b>Spam</b></p>
+                    </div>
+                </li>
+                <li>
+                    <div><img
+                            src="https://www.shutterstock.com/image-vector/garbage-icon-trash-vector-logo-260nw-1216914847.jpg"
+                            alt="" class="afterclickmorebutton">
+                        <p> Trash</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="Categories1"> <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpy-kcS4cDBkvqq0NqrrcB9IAeCxMY25PTZqVaxZNWfF6q86X7qFQQdzyy3IeUQNIIFTc&usqp=CAU"
+                            class="afterclickmorebutton">
+                        <p><b>Categories</b></p>
+                </li>
+                <li>
+                    <div><img
+                            src="https://cdn.icon-icons.com/icons2/877/PNG/512/msn-social-logo_icon-icons.com_68382.png"
+                            alt="" class="afterclickmorebutton">
+                        <p>Social</p>
+                    </div>
+                </li>
+                <li>
+                    <div><img src="https://www.pngfind.com/pngs/m/29-296308_it-is-an-exclamation-point-inside-of-a.png"
+                            alt="" class="afterclickmorebutton">
+                        <p> <b>Updates</b></p>
+                    </div>
+                </li>
+                <li>
+                    <div><img src="https://icon-library.com/images/discussion-forum-icon/discussion-forum-icon-0.jpg"
+                            alt="" class="afterclickmorebutton">
+                        <p> Forums</p>
+                    </div>
+                </li>
+                <li>
+                    <div><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFlJjX2OWTcVJQJq_NvmTHZGnj0K3EuU84axWplvCcQ9q9MNwqmetKg_Y_YRRdg8ykRWo&usqp=CAU"
+                            alt="" class="afterclickmorebutton">
+                        <p><b>Promotions</b></p>
+                    </div>
+                </li>
+
+
+                <li>
+                    <a href=""><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6X1ELZU7HMyH9Bj90fBn0oMACv72n3RDCaxXTRC7G81hwlJxOpLjrH3w4Y-QverTDo4&usqp=CAU"
+                            alt="" class="afterclickmorebutton">
+                        <p>Manage labels</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-plus"></i>
+                        <p>Create new label</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Labels <img src="https://iconape.com/wp-content/png_logo_vector/add-40.png" class="lable">
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="rightcontainer">
+
+        <img src="https://assets-global.website-files.com/5f15081919fdf673994ab5fd/63ed3b6494433b4c186f2f4e_Google%20Calendar.svg"
+            alt="" class="celender">
+        <p class="p">Celender</p>
+        <img src="https://images.ctfassets.net/9haz2glq4wt0/5sGNSvHMUBqVneiTgg3ig8/8cf838f0c0709feee4f1e7ff4ce9ced2/Google_Keep_Logo_-_PNG.png"
+            alt="" class="celender">
+        <p class="p k">Keep</p>
+        <img src="https://logowik.com/content/uploads/images/google-tasks7052.logowik.com.webp" alt="" class="celender">
+        <p class="p k">Tasks</p>
+        <img src="https://seeklogo.com/images/G/google-contacts-logo-A07A806C3B-seeklogo.com.png" alt=""
+            class="celender">
+        <p class="p">Contacts</p>
+        <div class="line"></div>
+        <img src="https://iconape.com/wp-content/png_logo_vector/add-40.png" alt="" class="celender">
+        <p class="p">Get Add-ons</p>
+    </div>
+    <!-- ---------------Massagecenterpart------------------------------------------- -->
+    <main class="main-container">
+        <div class="top">
+            <div class="left">
+                <div class="check">
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTnCKNmJRbif0GIFjmWNkUBlxSELT14KrTp59X-TGJstoh_bL7Nak_x9-DNUHdgj4jaEQ&usqp=CAU" alt="" class="checked-box-part">
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/eva-icon-fill/refresh-111.png" alt="" class="checked-box-part">
+                    <img src="https://www.shutterstock.com/image-vector/icon-more-vertical-260nw-710890189.jpg" alt="" class="checked-box-part">
+
+
+                        <span class="date">01-30 of 30</span>
+                        <span class="never-left"><i class="fa-solid fa-angle-left"></i>
+                            <p></p>
+                        </span>
+                        <span class="older-right"><i class="fa-solid fa-angle-right"></i>
+                            <p></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="second-main-box-container">
+                    <div class="praimary-box">
+                        <img src="https://previews.123rf.com/images/desbayy/desbayy1802/desbayy180200070/95990511-gallery-logo-icon.jpg"
+                            alt="" class="praimary">
+                        <p class="pro-text">Primary</p>
+                    </div>
+                    <div class="praimary-box">
+                        <a href="#">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFlJjX2OWTcVJQJq_NvmTHZGnj0K3EuU84axWplvCcQ9q9MNwqmetKg_Y_YRRdg8ykRWo&usqp=CAU"
+                            alt="" class="promotion">
+                        <p>Promotions</p>
+                    </a>
+                    </div>
+                    <div class="praimary-box">
+                        <img src="https://cdn.icon-icons.com/icons2/877/PNG/512/msn-social-logo_icon-icons.com_68382.png"
+                            alt="" class="soical-media-image">
+                        <p>Social</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+<!--................... mail sms................. -->
+
+            <div class="mail-sms">
+              <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div>
+              <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div> <div class="maii-sms-box">
+                <input type="checkbox" id="checkboxes" name="checkbox">
+                <i class="fa-regular fa-star"></i>
+                <p class="comapany-anme">Tata</p>
+                <p class="comapany-anme-in">Lorem ipsum dolor reprehenderit id cupiditate incidunt. Soluta doloribus nihil a maiores?</p>
+              </div>
+
+
+
+            </div>
+
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
